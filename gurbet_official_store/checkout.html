@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Checkout | GURBET Türkiye Drops</title>
+  <meta name="description" content="GURBET Türkiye Drops checkout." />
+  <meta name="theme-color" content="#09090b" />
+  <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="checkout">
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="GURBET home"><img src="assets/logo-mark.svg" alt="" /><span><strong>GURBET</strong><small>Türkiye Drops</small></span></a>
+    <nav class="nav-links" aria-label="Main navigation"><a href="index.html#shop">Shop</a><a href="cart.html">Cart</a></nav>
+    <button class="bag-btn" type="button" data-open-cart>Bag <b data-bag-count>0</b></button>
+  </header>
+  <main class="section checkout-page">
+    <div class="page-title"><p class="eyebrow">Secure order draft</p><h1>Checkout</h1></div>
+    <div class="checkout-layout">
+      <form class="checkout-form" data-checkout-form>
+        <label>Full name<input name="name" autocomplete="name" required placeholder="Your name" /></label>
+        <label>Email<input name="email" type="email" autocomplete="email" required placeholder="you@email.com" /></label>
+        <label>Phone<input name="phone" autocomplete="tel" placeholder="+1 ..." /></label>
+        <label>Instagram / TikTok handle<input name="handle" placeholder="@handle" /></label>
+        <label>Delivery or pickup city<textarea name="delivery" rows="4" placeholder="City, pickup preference, or shipping address"></textarea></label>
+        <button class="btn primary full" type="submit">Place order request</button>
+        <button class="btn ghost full" type="button" data-whatsapp-order>WhatsApp-style order text</button>
+      </form>
+      <aside class="order-summary checkout-summary">
+        <h2>Your order</h2>
+        <div data-checkout-items></div>
+        <div class="subtotal big"><span>Subtotal</span><strong data-subtotal>$0</strong></div>
+        <p class="micro">Frontend is ready. Connect Shopify, Stripe Payment Links, or a real payment gateway before running paid ads.</p>
+      </aside>
+    </div>
+  </main>
+  <aside class="cart-drawer" data-cart-drawer aria-hidden="true"><div class="cart-panel"><div class="cart-top"><div><p class="eyebrow">GURBET</p><h2>Your bag</h2></div><button class="icon" type="button" data-close-cart>×</button></div><div class="drawer-items" data-cart-items></div><div class="drawer-bottom"><div class="subtotal"><span>Subtotal</span><strong data-subtotal>$0</strong></div><a class="btn primary full" href="checkout.html">Checkout</a></div></div></aside>
+  <footer class="footer"><span>© <span data-year></span> GURBET</span><span>Türkiye Drops</span><span>Independent merch capsule</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>

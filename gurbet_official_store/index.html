@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>GURBET | Türkiye Drops</title>
+  <meta name="description" content="GURBET Türkiye Drops. Premium Türkiye-inspired merch and fanwear for match day, travel, and diaspora style." />
+  <meta property="og:title" content="GURBET | Türkiye Drops" />
+  <meta property="og:description" content="Premium Türkiye-inspired merch. Red and white drops, limited pieces." />
+  <meta property="og:image" content="assets/women_classic_crop.jpg" />
+  <meta name="theme-color" content="#09090b" />
+  <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="home">
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="GURBET home">
+      <img src="assets/logo-mark.svg" alt="" />
+      <span><strong>GURBET</strong><small>Türkiye Drops</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html#shop">Shop</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+    <button class="bag-btn" type="button" data-open-cart>Bag <b data-bag-count>0</b></button>
+  </header>
+
+  <main>
+    <section class="hero shop-hero">
+      <div class="hero-copy">
+        <img class="hero-logo" src="assets/logo-gurbet.svg" alt="GURBET Türkiye Drops" />
+        <h1>Türkiye drop’un resmi evi.</h1>
+        <p>Premium red & white fanwear. Limited pieces. Built for match day and after.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#shop">Shop now</a>
+          <button class="btn ghost" type="button" data-scroll-to-products>View all pieces</button>
+        </div>
+      </div>
+      <a class="hero-image" href="product.html?id=w-classic-crop" aria-label="Open Hilal Crop Jersey">
+        <picture>
+          <source srcset="assets/women_classic_crop.webp" type="image/webp">
+          <img src="assets/women_classic_crop.jpg" alt="GURBET Türkiye Drops red and white crop jerseys" loading="eager">
+        </picture>
+        <span>Best seller</span>
+      </a>
+    </section>
+
+    <section class="ticker" aria-label="Collection tags">
+      <div>
+        <span>GURBET</span><span>TÜRKİYE DROPS</span><span>RED</span><span>WHITE</span><span>1923</span><span>MATCH DAY</span>
+        <span>GURBET</span><span>TÜRKİYE DROPS</span><span>RED</span><span>WHITE</span><span>1923</span><span>MATCH DAY</span>
+      </div>
+    </section>
+
+    <section class="shop section" id="shop">
+      <div class="shop-head">
+        <div>
+          <p class="eyebrow">The drop</p>
+          <h2>Shop GURBET</h2>
+        </div>
+        <div class="filters" role="group" aria-label="Product filter">
+          <button class="filter active" data-filter="all" type="button">All</button>
+          <button class="filter" data-filter="women" type="button">Women</button>
+          <button class="filter" data-filter="men" type="button">Men</button>
+          <button class="filter" data-filter="best" type="button">Best sellers</button>
+        </div>
+      </div>
+      <div class="product-grid" data-product-grid></div>
+    </section>
+  </main>
+
+  <aside class="cart-drawer" data-cart-drawer aria-hidden="true">
+    <div class="cart-panel">
+      <div class="cart-top">
+        <div><p class="eyebrow">GURBET</p><h2>Your bag</h2></div>
+        <button class="icon" type="button" data-close-cart aria-label="Close cart">×</button>
+      </div>
+      <div class="drawer-items" data-cart-items></div>
+      <div class="drawer-bottom">
+        <div class="subtotal"><span>Subtotal</span><strong data-subtotal>$0</strong></div>
+        <a class="btn primary full" href="checkout.html">Checkout</a>
+        <a class="btn ghost full" href="cart.html">View cart</a>
+      </div>
+    </div>
+  </aside>
+
+  <footer class="footer">
+    <span>© <span data-year></span> GURBET</span>
+    <span>Türkiye Drops</span>
+    <span>Independent merch capsule</span>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

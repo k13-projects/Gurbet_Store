@@ -1,0 +1,26 @@
+<svg width="520" height="164" viewBox="0 0 520 164" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GURBET Türkiye Drops logo</title>
+  <desc id="desc">Premium wordmark logo for GURBET with crescent star mark and Türkiye Drops tagline.</desc>
+  <rect width="520" height="164" rx="34" fill="#08080A"/>
+  <rect x="8" y="8" width="504" height="148" rx="28" stroke="url(#paint0_linear)" stroke-opacity="0.9" stroke-width="1.5"/>
+  <g transform="translate(39 39)">
+    <circle cx="43" cy="43" r="41" fill="#B9001C"/>
+    <circle cx="54" cy="43" r="29" fill="#08080A"/>
+    <path d="M73.3 29.2l4.52 9.13 10.08 1.46-7.3 7.1 1.72 10.03-9.02-4.74-9.02 4.74 1.72-10.03-7.3-7.1 10.08-1.46 4.52-9.13z" fill="#F8F2EA"/>
+  </g>
+  <g>
+    <text x="144" y="75" fill="#F8F2EA" font-family="Inter, Helvetica Neue, Arial Black, Arial, sans-serif" font-size="48" font-weight="900" letter-spacing="8">GURBET</text>
+    <text x="147" y="111" fill="#DAB16B" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="5">TÜRKİYE DROPS</text>
+  </g>
+  <path d="M144 126H446" stroke="#B9001C" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+  <defs>
+    <filter id="soft" x="130" y="18" width="350" height="126" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <linearGradient id="paint0_linear" x1="20" y1="12" x2="506" y2="156" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F2EA" stop-opacity="0.4"/>
+      <stop offset="0.45" stop-color="#B9001C" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#DAB16B" stop-opacity="0.65"/>
+    </linearGradient>
+  </defs>
+</svg>

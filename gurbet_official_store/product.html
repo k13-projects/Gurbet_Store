@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Product | GURBET Türkiye Drops</title>
+  <meta name="description" content="Shop GURBET Türkiye Drops product page with size, color, quantity, and add to bag." />
+  <meta name="theme-color" content="#09090b" />
+  <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="product">
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="GURBET home">
+      <img src="assets/logo-mark.svg" alt="" />
+      <span><strong>GURBET</strong><small>Türkiye Drops</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html#shop">Shop</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+    <button class="bag-btn" type="button" data-open-cart>Bag <b data-bag-count>0</b></button>
+  </header>
+
+  <main class="product-page section">
+    <a class="back-link" href="index.html#shop">← Back to shop</a>
+    <section class="product-detail" data-product-detail></section>
+    <section class="related-wrap">
+      <div class="shop-head"><div><p class="eyebrow">More from GURBET</p><h2>You may also like</h2></div></div>
+      <div class="product-grid compact" data-related-products></div>
+    </section>
+  </main>
+
+  <aside class="cart-drawer" data-cart-drawer aria-hidden="true">
+    <div class="cart-panel">
+      <div class="cart-top">
+        <div><p class="eyebrow">GURBET</p><h2>Your bag</h2></div>
+        <button class="icon" type="button" data-close-cart aria-label="Close cart">×</button>
+      </div>
+      <div class="drawer-items" data-cart-items></div>
+      <div class="drawer-bottom">
+        <div class="subtotal"><span>Subtotal</span><strong data-subtotal>$0</strong></div>
+        <a class="btn primary full" href="checkout.html">Checkout</a>
+        <a class="btn ghost full" href="cart.html">View cart</a>
+      </div>
+    </div>
+  </aside>
+
+  <footer class="footer"><span>© <span data-year></span> GURBET</span><span>Türkiye Drops</span><span>Independent merch capsule</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
