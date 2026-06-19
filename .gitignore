@@ -10,3 +10,6 @@ npm-debug.log*
 .env
 .env.*
 .gstack/
+
+# Local Claude Code / agent settings
+.claude/
