@@ -1,0 +1,12 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GURBET crescent monogram">
+  <defs>
+    <mask id="crescent">
+      <rect width="128" height="128" fill="#000"/>
+      <circle cx="64" cy="66.5" r="38.4" fill="#fff"/>
+      <circle cx="89.8" cy="66.5" r="38.4" fill="#000"/>
+    </mask>
+  </defs>
+  <circle cx="64" cy="66.5" r="51.2" stroke="#B8923F" stroke-width="2.4" fill="none"/>
+  <rect width="128" height="128" fill="#F2EDE6" mask="url(#crescent)"/>
+  <path d="M91.6 25l3.1 8.2 8.2 3.1-8.2 3.1-3.1 8.2-3.1-8.2-8.2-3.1 8.2-3.1z" fill="#D9B86A"/>
+</svg>
