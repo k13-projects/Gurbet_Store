@@ -9,21 +9,6 @@ const STORE = {
 
 const PRODUCTS = [
   {
-    id:'w-classic-crop',
-    name:'Hilal Crop Jersey',
-    audience:'Women',
-    category:'women',
-    price:54,
-    badge:'Best seller',
-    tags:['women','best'],
-    image:'assets/women_classic_crop_thumb.webp',
-    large:'assets/women_classic_crop.webp',
-    colors:['Red','White'],
-    sizes:['XS','S','M','L','XL'],
-    fit:'Boxy cropped fit',
-    copy:'A sharp cropped jersey with ay-yıldız detail, sleeve motif, and bold TÜRKİYE chest typography.'
-  },
-  {
     id:'w-vertical-stripe',
     name:'Vertical Stripe Crop',
     audience:'Women',
@@ -52,6 +37,21 @@ const PRODUCTS = [
     sizes:['XS','S','M','L','XL'],
     fit:'Relaxed V-neck',
     copy:'Soft designer V-neck with ornate trim, tonal pattern, ay-yıldız mark, and 1923 detail.'
+  },
+  {
+    id:'w-classic-crop',
+    name:'Hilal Crop Jersey',
+    audience:'Women',
+    category:'women',
+    price:54,
+    badge:'Best seller',
+    tags:['women','best'],
+    image:'assets/women_classic_crop_thumb.webp',
+    large:'assets/women_classic_crop.webp',
+    colors:['Red','White'],
+    sizes:['XS','S','M','L','XL'],
+    fit:'Boxy cropped fit',
+    copy:'A sharp cropped jersey with ay-yıldız detail, sleeve motif, and bold TÜRKİYE chest typography.'
   },
   {
     id:'m-minimal-performance',
