@@ -9,3 +9,4 @@ npm-debug.log*
 # Env / secrets
 .env
 .env.*
+.gstack/
