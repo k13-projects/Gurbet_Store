@@ -4,12 +4,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A static, dependency-free storefront for the GURBET "Türkiye Drops" merch brand. No framework, no build step, no package manager, no backend. Plain HTML + CSS + a single vanilla-JS file. The git repository root is the parent directory (`Gurbet_Store/`); all app files live in `gurbet_official_store/`.
+A static, dependency-free storefront for the GURBET "Türkiye Drops" merch brand. No framework, no build step, no package manager, no backend. Plain HTML + CSS + a single vanilla-JS file. All app files live at the repository root (`index.html`, `app.js`, `styles.css`, `assets/`, etc.) so the site deploys from the repo root with no extra config (Vercel Root Directory = repo root).
 
 ## Running
 
 ```bash
-python3 -m http.server 8080   # run from inside gurbet_official_store/
+python3 -m http.server 8080   # run from the repo root
 ```
 Then open http://localhost:8080. Opening `index.html` directly via `file://` also works. There are no tests, no lint, and no build to run.
 
