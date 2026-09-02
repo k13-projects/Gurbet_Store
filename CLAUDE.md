@@ -9,9 +9,13 @@ A static, dependency-free storefront for the GURBET "Türkiye Drops" merch brand
 ## Running
 
 ```bash
-python3 -m http.server 8080   # run from the repo root
+python3 -m http.server 9141 --bind 127.0.0.1   # run from the repo root
 ```
-Then open http://localhost:8080. Opening `index.html` directly via `file://` also works. There are no tests, no lint, and no build to run.
+**Assigned dev port: `9141`** (K13 9130–9199 registry, `starter-kit/CONVENTIONS.md` in the War Room;
+one fixed port per project, for life). It ran on 8080 until 2026-09-02, when the War Room began
+cross-checking every repo's pin against the registry and flagged the drift.
+
+Then open http://localhost:9141. Opening `index.html` directly via `file://` also works. There are no tests, no lint, and no build to run.
 
 ## Architecture
 
